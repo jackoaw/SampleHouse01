@@ -99,7 +99,7 @@ public class SampleHaus implements Speechlet {
         // Get the color slot from the list of slots.
         Slot t = slots.get("HouseTemperature");
         int temp = Integer.parseInt(t.getValue());
-        JOptionPane.showMessageDialog(null, "The house temperature has been set to " + temp + " degrees");
+        // JOptionPane.showMessageDialog(null, "The house temperature has been set to " + temp + " degrees");
         // mqtt server interaction here, set the temperature of the house. Create a method that is asynchronous
 
         String response = "The temperature of the house has been set to " + temp + " degrees.";
