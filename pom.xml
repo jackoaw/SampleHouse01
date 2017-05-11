@@ -110,7 +110,7 @@
             <systemProperties>
               <systemProperty>
                 <key>javax.net.ssl.keyStore</key>
-                <value>/certs/java-keystore.jks</value>
+                <value>./java-keystore.jks</value>
               </systemProperty>
               <systemProperty>
                 <key>javax.net.ssl.keyStorePassword</key>
