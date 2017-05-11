@@ -96,7 +96,6 @@ public class SampleHaus implements Speechlet {
     private SpeechletResponse SetHouseTemp(final Intent intent, final Session session) {
         
         Map<String, Slot> slots = intent.getSlots();
-        // Get the color slot from the list of slots.
         Slot t = slots.get("HouseTemperature");
         int temp = Integer.parseInt(t.getValue());
         // JOptionPane.showMessageDialog(null, "The house temperature has been set to " + temp + " degrees");
@@ -109,7 +108,6 @@ public class SampleHaus implements Speechlet {
     private SpeechletResponse SetTemp(final Intent intent, final Session session) {
         
         Map<String, Slot> slots = intent.getSlots();
-        // Get the color slot from the list of slots.
         Slot t = slots.get("Temperature");
         int temp = Integer.parseInt(t.getValue());
         Slot obj = slots.get("Object");
