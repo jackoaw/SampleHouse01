@@ -110,11 +110,11 @@
             <systemProperties>
               <systemProperty>
                 <key>javax.net.ssl.keyStore</key>
-                <value>./java-keystore.jks</value>
+                <value></value>
               </systemProperty>
               <systemProperty>
                 <key>javax.net.ssl.keyStorePassword</key>
-                <value>andyo519</value>
+                <value></value>
               </systemProperty>
               <systemProperty>
                 <key>com.amazon.speech.speechlet.servlet.disableRequestSignatureCheck</key>
